@@ -1,0 +1,123 @@
+.thermantika_page {
+  @media (max-width: 1192px) {
+    padding: 0 24px;
+  }
+}
+.choose__section {
+  max-width: 981px;
+  margin: 16px auto;
+
+  // @media (max-width: 768px) {
+  //   min-height: auto;
+  // }
+  .choose_heading {
+    font-family: "MM Headline Pro WebTT";
+    font-style: italic;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .choose_content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    .choose_bx {
+      min-width: 243px;
+      min-height: 268px;
+      text-align: center;
+      padding: 18px 35px 34px;
+      background: #f2f2f2;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      .choose_Img {
+        width: 75px;
+        height: auto;
+      }
+      .choose_Img_Two {
+        width: 150px;
+        height: 125.56px;
+      }
+      .choose_Img_Three {
+        width: 135px;
+        height: 113px;
+      }
+      .choose_Img_four {
+        width: 89px;
+        height: 113px;
+      }
+      .choose_Img_five {
+        width: 85px;
+        height: 129px;
+      }
+      .inner_content {
+        max-width: 245px;
+        margin: 0 auto;
+        .choose_inner_heading {
+          font-style: normal;
+          margin: 4px 0 0;
+          font-weight: 700;
+          font-size: 17px;
+          line-height: 31px;
+        }
+        .choose_para {
+          font-style: normal;
+          height: 66px;
+          font-weight: 400;
+          font-size: 12px;
+          margin: 8px 0;
+          line-height: 18px;
+        }
+        .choose_para_Two {
+          margin: 0;
+        }
+        .choose_para_Three {
+          height: 25px;
+        }
+        .choose_power_find_btn {
+          width: 128px;
+          height: 36px;
+          background: #cd2c1e;
+          border-radius: 4px;
+          border: none;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 21px;
+          text-align: center;
+          color: #ffffff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 7px;
+          padding: 7px 15px 8px 15px;
+          margin: 0 auto;
+          .right_icon {
+            width: 5px;
+            height: 10px;
+          }
+        }
+        .choose_btn {
+          width: 169px;
+          height: auto;
+          padding: auto 18px auto 11.75px;
+        }
+        .last_power_btn {
+          margin: 0;
+        }
+        .choose_btn_three {
+          width: 188px;
+          height: auto;
+          margin: 0;
+        }
+      }
+    }
+    .choose_bx_Two {
+      min-width: 379px;
+      min-height: 129px;
+      display: flex;
+      align-items: center;
+      gap: 51px;
+      text-align: left;
+      padding: 27px 43px 23px 56px;
+    }
+  }
+}
