@@ -103,7 +103,7 @@
         margin: 0 0 21px;
       }
       .choose_power_find_btn {
-        width: 128px;
+        min-width: 128px;
         height: 36px;
         background: #cd2c1e;
         border-radius: 4px;
@@ -125,7 +125,7 @@
         }
       }
       .choose_btn {
-        width: 169px;
+        min-width: 169px;
         height: auto;
         padding: auto 18px auto 11.75px;
       }
@@ -133,7 +133,7 @@
         margin: 0;
       }
       .choose_btn_three {
-        width: 188px;
+        min-width: 188px;
         height: auto;
         margin: 0;
       }
