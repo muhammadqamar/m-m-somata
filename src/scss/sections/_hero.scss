@@ -1,12 +1,9 @@
-.somata_page {
-  @media (max-width: 974px) {
-    padding: 0 24px;
-  }
-}
 .choose__section {
   width: 975px;
   margin: 16px auto;
-
+  @media (max-width: 974px) {
+    padding: 0 24px;
+  }
   @media (max-width: 994px) {
     width: 100%;
   }
@@ -37,6 +34,7 @@
 
       @media (max-width: 499px) {
         padding: 16px;
+        width: 100%;
       }
 
       @media (max-width: 994px) {
