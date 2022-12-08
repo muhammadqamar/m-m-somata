@@ -1,9 +1,7 @@
 .choose__section {
-  width: 975px;
+  width: auto;
   margin: 16px auto;
-  @media (max-width: 974px) {
-    padding: 0 24px;
-  }
+
   @media (max-width: 994px) {
     width: 100%;
   }
@@ -23,7 +21,10 @@
   .choose_content {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 7px;
+    @media (max-width: 992px) {
+      gap: 12px;
+    }
     .choose_bx {
       width: 315px;
       text-align: center;
@@ -31,6 +32,7 @@
       background: #f2f2f2;
       border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 10px;
+      flex-grow: 1;
 
       @media (max-width: 499px) {
         padding: 16px;
@@ -137,7 +139,7 @@
       }
     }
     .choose_bx_Two {
-      width: 480px;
+      width: 470px;
       display: flex;
       align-items: center;
       gap: 51px;
